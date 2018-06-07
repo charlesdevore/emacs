@@ -61,12 +61,4 @@
 ;; Maximize the screen on startup
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-
-;; Add MATLAB support
-  (autoload 'matlab-mode "matlab" "Enter MATLAB mode." t)
-  (setq auto-mode-alist (cons '("\\.m\\'" . matlab-mode) auto-mode-alist))
-  (autoload 'matlab-shell "matlab" "Interactive MATLAB mode." t)
-
-
-
 ;;; init.el ends here
