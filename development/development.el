@@ -9,18 +9,18 @@
 
 (require 'rainbow-delimiters)
 
-(global-flycheck-mode)
+;; (global-flycheck-mode)
 
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-(add-hook 'prog-mode-hook 'subword-mode)
-(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
+;; (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+;; (add-hook 'prog-mode-hook 'subword-mode)
+;; (add-hook 'prog-mode-hook 'flyspell-prog-mode)
 
 (require '_python)
-(require '_golang)
-(require '_markdown)
-(require '_web)
-(require '_json)
+;; (require '_golang)
+;; (require '_markdown)
+;; (require '_web)
+;; (require '_json)
 
 (provide 'development)
 
