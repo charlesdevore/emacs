@@ -53,7 +53,7 @@
 ;; (setq company-echo-delay 0)
 ;; (setq company-minimum-prefix-length 1)
 
-;; (require 'development)
+(require 'development)
 
 ;; Add keybindings for launching a python interactive session and a shell
 (define-key global-map (kbd "C-c p") 'run-python)

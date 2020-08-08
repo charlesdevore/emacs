@@ -44,7 +44,7 @@
 
 
 ;; Add support for EIN which provides notebook support
-(require 'ein)
+;; (require 'ein)
 
 
 (provide '_python)
